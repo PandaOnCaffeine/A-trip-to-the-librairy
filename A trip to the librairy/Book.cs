@@ -24,15 +24,9 @@ namespace A_trip_to_the_librairy
             this.year = year;
             this.bookId = bookId;
         }
-
-        public void Loan(int bookId)
-        {
-
-        }
-
         public override string ToString()
         {
-            return title + " By " + author + ", With " + pages + " Pages";
+            return title + " By " + author + ", from " + year;
         }
     }
 }
